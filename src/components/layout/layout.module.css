@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  flex: 1 1 auto;
+  margin: 0 0 0 306px;
+}
+
+.content {
+  padding: 37px;
+}
