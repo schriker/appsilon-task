@@ -8,6 +8,14 @@
   box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.burger {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+  padding: 0;
+}
+
 .links {
   margin: 0 0 0 55px;
   display: flex;
@@ -46,4 +54,21 @@
 .links a:hover::after,
 .active a::after {
   opacity: 1;
+}
+
+@media (max-width: 780px) {
+  .wrapper {
+    padding: 0 25px;
+  }
+  .burger {
+    display: block;
+  }
+  .links {
+    margin: 0;
+    padding: 0;
+  }
+
+  .links li {
+    margin: 0 0 0 20px;
+  }
 }

@@ -55,3 +55,17 @@
   height: 5px;
   border-radius: 2px;
 }
+
+@media (max-width: 940px) {
+  .wrapper h3 {
+    font-size: 40px;
+  }
+
+  .wrapper h3 span {
+    font-size: 25px;
+  }
+
+  .value {
+    margin: 38px 0 0 0;
+  }
+}

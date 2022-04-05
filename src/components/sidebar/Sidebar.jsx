@@ -5,10 +5,20 @@ import User from '../user/User';
 import Button from '../button/Button';
 import Links from '../links/Links';
 import Logout from '../logout/Logout';
+import Close from '../../components/icons/Close';
 
-function Sidebar() {
+function Sidebar({ isOpen, toggleOpen }) {
   return (
-    <div className={sidebarStyles.wrapper}>
+    <div
+      className={`${isOpen ? sidebarStyles.open : null} ${
+        sidebarStyles.wrapper
+      }`}
+    >
+      <div className={sidebarStyles.close}>
+        <button onClick={toggleOpen}>
+          <Close />
+        </button>
+      </div>
       <Logo />
       <User />
       <Button text="Create New Plan" to="/" />

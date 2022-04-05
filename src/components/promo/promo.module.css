@@ -13,9 +13,10 @@
 
 .content {
   position: absolute;
+  width: 60%;
   top: 50%;
   text-align: center;
-  right: 50px;
+  right: 0;
   transform: translate(0, -50%);
 }
 
@@ -39,4 +40,25 @@
   border-radius: 5px;
   padding: 7px 13px;
   margin: 0 15px 0 0;
+}
+
+@media (max-width: 940px) {
+  .content {
+    right: 20px;
+  }
+  .content h2 {
+    font-size: 20px;
+  }
+  .code {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .content {
+    width: 100%;
+    right: 0;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255, 0.8);
+  }
 }

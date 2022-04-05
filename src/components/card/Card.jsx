@@ -18,7 +18,7 @@ function Card({ price, title, policy, claim }) {
           </div>
         </div>
         <div className={cardStyle.bar}>
-          <div style={{ width: '155px' }} className={cardStyle.barGreen}></div>
+          <div style={{ width: '60%' }} className={cardStyle.barGreen}></div>
         </div>
       </div>
       <div className={cardStyle.value}>
@@ -30,7 +30,7 @@ function Card({ price, title, policy, claim }) {
           </div>
         </div>
         <div className={cardStyle.bar}>
-          <div style={{ width: '193px' }} className={cardStyle.barPurple}></div>
+          <div style={{ width: '75%' }} className={cardStyle.barPurple}></div>
         </div>
       </div>
     </div>
