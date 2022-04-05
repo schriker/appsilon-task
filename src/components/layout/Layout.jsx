@@ -9,7 +9,7 @@ function Layout({ children }) {
       <Sidebar />
       <div className={layoutStyles.container}>
         <Menu />
-        <div className={layoutStyles.content}>Content</div>
+        <div className={layoutStyles.content}>{children}</div>
       </div>
     </div>
   );

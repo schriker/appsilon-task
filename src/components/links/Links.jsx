@@ -7,7 +7,10 @@ function Links() {
   return (
     <ul className={linksStyles.links}>
       {sidebarLinks.map((link, index) => (
-        <li key={index}>
+        <li
+          key={index}
+          className={link.text === 'Reports' ? linksStyles.active : null}
+        >
           <Link to="/">
             {link.icon}
             {link.text}

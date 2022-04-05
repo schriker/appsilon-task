@@ -9,5 +9,6 @@
 }
 
 .content {
+  max-width: 980px;
   padding: 37px;
 }

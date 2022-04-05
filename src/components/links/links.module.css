@@ -31,6 +31,12 @@
   fill: #713bdb;
 }
 
+.active a,
+.active a svg path {
+  color: #713bdb;
+  fill: #713bdb;
+}
+
 .links li:first-child a:hover svg path {
   fill: none;
   stroke: #713bdb;
