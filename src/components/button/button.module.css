@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  padding: 8px 19px;
+  background-color: #713bdb;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
+  text-decoration: none;
+  color: #FFFBFB;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.button::after {
+  content: "+";
+  margin: 0 0 0 14px;
+}

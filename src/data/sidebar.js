@@ -1,26 +1,34 @@
+import React from "react";
+import Overview from "../components/icons/Overview";
+import Policy from "../components/icons/Policy";
+import Reports from "../components/icons/Reports";
+import Company from "../components/icons/Company";
+import User from "../components/icons/User";
+import History from "../components/icons/History";
+
 export const sidebarLinks = [
   {
-    icon: null,
+    icon: <Overview />,
     text: 'Overview'
   },
   {
-    icon: null,
+    icon: <Policy />,
     text: 'Policy'
-  }, 
+  },
   {
-    icon: null,
+    icon: <Reports />,
     text: 'Reports'
-  }, 
+  },
   {
-    icon: null,
+    icon: <Company />,
     text: 'Company'
-  }, 
+  },
   {
-    icon: null,
+    icon: <User />,
     text: 'User Account'
   },
   {
-    icon: null,
+    icon: <History />,
     text: 'History'
   },
 ];

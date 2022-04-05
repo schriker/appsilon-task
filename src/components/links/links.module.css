@@ -1,0 +1,37 @@
+.links {
+  flex: 1 1 auto;
+  margin: 24px 0 0 18px;
+  padding: 0;
+}
+
+.links li {
+  margin: 26px 0;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: #a2a4b9;
+  transition: all ease 0.2s;
+}
+
+.links svg {
+  margin: 0 25px 0 0;
+}
+
+.links svg path {
+  transition: all ease 0.2s;
+}
+
+.links a:hover,
+.links a:hover svg path {
+  color: #713bdb;
+  fill: #713bdb;
+}
+
+.links li:first-child a:hover svg path {
+  fill: none;
+  stroke: #713bdb;
+}

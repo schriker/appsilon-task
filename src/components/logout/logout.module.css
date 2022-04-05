@@ -1,0 +1,25 @@
+.link {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #a2a4b9;
+  transition: all ease 0.2s;
+  justify-content: center;
+}
+
+.link:hover,
+.link:hover svg path:first-child {
+  color: #713bdb;
+  stroke: #713bdb;
+}
+
+.link svg path:first-child {
+  transition: all ease 0.2s;
+}
+
+.link svg {
+  margin: 0 12px 0 0;
+}
