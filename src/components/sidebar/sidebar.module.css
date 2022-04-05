@@ -24,6 +24,7 @@
   background-color: transparent;
   border: none;
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
