@@ -1,0 +1,57 @@
+.wrapper {
+  padding: 25px;
+  color: #42474a;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.06);
+  font-size: 17px;
+}
+
+.wrapper h3 {
+  font-size: 55px;
+  font-weight: 400;
+  display: flex;
+}
+
+.wrapper h3 span {
+  color: #713bdb;
+  font-size: 35px;
+  margin: -5px 0 0 0;
+}
+
+.value {
+  margin: 48px 0 0 0;
+}
+
+.valueContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valuePrice {
+  display: flex;
+}
+
+.valuePrice span {
+  font-size: 13px;
+  margin: -5px 0 0 0;
+}
+
+.bar {
+  margin: 8px 0 0 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ececec 0%, #f2f1f1 111.47%);
+  border-radius: 2px;
+  height: 5px;
+}
+
+.barGreen {
+  background: linear-gradient(90deg, #33d69f 0%, #50edb8 111.47%);
+  height: 5px;
+  border-radius: 2px;
+}
+
+.barPurple {
+  background: linear-gradient(90deg, #713bdb 0%, #a886e9 111.47%);
+  height: 5px;
+  border-radius: 2px;
+}
